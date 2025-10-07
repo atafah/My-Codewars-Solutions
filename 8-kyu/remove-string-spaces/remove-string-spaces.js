@@ -1,0 +1,1 @@
+const noSpace = sentence => sentence.split(' ').join('');
