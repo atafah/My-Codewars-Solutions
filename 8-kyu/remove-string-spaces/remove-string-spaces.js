@@ -1,1 +1,1 @@
-const noSpace = sentence => sentence.split(' ').join('');
+const noSpace = x => x.replace(/\s/g, '');
