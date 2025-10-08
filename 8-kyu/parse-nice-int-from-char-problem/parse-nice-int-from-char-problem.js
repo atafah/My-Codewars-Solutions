@@ -1,0 +1,1 @@
+const getAge = (str) => Number(str[0]);
