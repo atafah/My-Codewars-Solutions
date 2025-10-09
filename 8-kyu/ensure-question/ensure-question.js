@@ -1,1 +1,1 @@
-const ensureQuestion = str => str[str.length-1] === "?" ? str : str + "?";
+const ensureQuestion = str => str.endsWith("?") ? str : str + "?"
