@@ -1,4 +1,1 @@
-function whoIsPaying(name){
-  if (name.length <= 2) return [name];
-  return [name, name.slice(0, 2)];
-}
+const whoIsPaying = name => name.length <= 2 ? [name] : [name, name[0]+name[1]]
