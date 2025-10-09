@@ -1,0 +1,1 @@
+const removeChar = str => str.split('').filter((_, index) => index !== 0 && index !== str.length - 1).join('');
