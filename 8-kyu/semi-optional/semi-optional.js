@@ -1,0 +1,1 @@
+const wrap = v => ({ value : v });
