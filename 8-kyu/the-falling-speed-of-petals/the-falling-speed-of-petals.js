@@ -1,6 +1,3 @@
 function sakuraFall(v) {
-  if (v <= 0)
-    return 0;
-  
-    return 80 / (v / 5);
+  return v <= 0 ? 0 : 400 / v; 
 }
