@@ -1,4 +1,4 @@
-function getSize(width, height, depth){
-  return [2*(width * height + width * depth + height * depth), width * height * depth];
+function getSize(a, b, c){
+  return [2*(a*b + a*c + b*c), a * b * c];
 }
 ​
