@@ -1,0 +1,1 @@
+const howManyLightsabersDoYouOwn = name => /Zach/.test(name) ? 18 : 0;
