@@ -1,14 +1,7 @@
 function animals(heads, legs){
-  if (heads === 0 && legs === 0) return [0, 0];
-  let cows = 0;
-  let chickens = heads;
-  
-  while (chickens >= 0){
-    if (chickens + cows === heads && chickens * 2 + cows * 4 === legs)
-      return [chickens, cows];
-​
-    chickens--;
-    cows++;
-  }
-  return "No solutions";
+  const cows = legs/2  - heads;
+  const chickens = heads - cows;
+  if (cows < 0 || chickens < 0 || cows % 1 !== 0 || chickens % 1 !== 0) 
+    return "No solutions";
+  return [chickens, cows];
 }
