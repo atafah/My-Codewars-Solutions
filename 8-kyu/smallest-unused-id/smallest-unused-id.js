@@ -1,7 +1,7 @@
  
 function nextId(ids){
   let number = 0;
-  while (number.includes(ids))
+  while (ids.includes(number))
     number++;
   return number;
 }
