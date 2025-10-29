@@ -1,14 +1,5 @@
-function factorialBigInt(n) {
-  let result = 1n;
-  for (let i = 2n; i <= BigInt(n); i++) {
-    result *= i;
-  }
-  return result;
-}
-​
+ 
 function amIWilson(p) {
-  if (p === 1) return false;
-  const pBig = BigInt(p);
-  const fact = factorialBigInt(p - 1);
-  return (fact + 1n) % (pBig * pBig) === 0n;
+  // all know wilson primes are 5, 13 and 563 
+  return (p === 5 || p === 13 || p === 563);
 }
