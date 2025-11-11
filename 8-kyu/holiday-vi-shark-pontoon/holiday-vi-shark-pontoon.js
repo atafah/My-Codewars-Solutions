@@ -1,0 +1,8 @@
+ 
+function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
+  if (dolphin)
+    sharkSpeed /= 2;
+  if (pontoonDistance/youSpeed < sharkDistance/sharkSpeed)
+    return "Alive!";
+  return "Shark Bait!";
+}
