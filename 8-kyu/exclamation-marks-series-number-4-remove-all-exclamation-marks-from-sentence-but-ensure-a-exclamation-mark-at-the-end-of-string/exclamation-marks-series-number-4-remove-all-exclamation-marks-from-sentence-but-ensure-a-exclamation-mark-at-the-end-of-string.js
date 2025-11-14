@@ -1,3 +1,2 @@
-function remove (str) {
-  return str.replace(/!/g, '') + '!';
-}
+ 
+const remove = str => str.replace(/!+/g, '') + '!';
