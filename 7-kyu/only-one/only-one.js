@@ -1,7 +1,6 @@
  
-function onlyOne(...tup) {
-  const arr = [...tup];
-  const trueCount = arr.filter(b => b).length;
-  const falseCount = arr.filter(b => !b).length;
-  return trueCount === 1 || falseCount === 1;
+function onlyOne(...args) {
+  const trueCount = args.filter(b => b);
+  const falseCount = args.filter(b => !b);
+  return Math.min(trueCount, falseCount) === 1;
 }
