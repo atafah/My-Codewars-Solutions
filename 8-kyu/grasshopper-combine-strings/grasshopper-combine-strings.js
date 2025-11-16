@@ -1,2 +1,2 @@
  
-const combineNames = (fName, lName) => `${fName} ${lName}`;
+const combineNames = (...args) => [...args].join(" ");
