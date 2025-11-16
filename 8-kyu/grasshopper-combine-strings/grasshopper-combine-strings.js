@@ -1,0 +1,2 @@
+ 
+const combineNames = (fName, lName) => `${fName} ${lName}`;
