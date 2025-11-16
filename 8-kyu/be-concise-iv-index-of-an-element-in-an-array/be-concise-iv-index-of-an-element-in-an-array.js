@@ -10,9 +10,4 @@ function find(arr, x) {
 ​
 ​
 ​
-​
-​
-​
-​
-​
 }
