@@ -6,6 +6,4 @@ function find(arr, x) {
 ​
 ​
 ​
-​
-​
 }
