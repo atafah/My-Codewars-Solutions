@@ -1,0 +1,1 @@
+<h2><a href=https://www.codewars.com/kata/563c13853b07a8f17c000022/train/javascript target="_blank">Is the date today</a></h2><h3>8 kyu</h3><p>Write a simple function that takes as a parameter a date object and returns a boolean value representing whether the date is today or not.</p><p>Make sure that your function does not return a false positive by only checking the day.</p>
